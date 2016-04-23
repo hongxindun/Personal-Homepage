@@ -28,7 +28,7 @@ header{
 
     background: -ms-linear-gradient(top, #aedd81,  #068043);        /* IE 10 */
 
-    background:-moz-linear-gradient(top,#aedd81,#068043);/*»ðºü*/
+    background:-moz-linear-gradient(top,#aedd81,#068043);/*Â»Ã°ÂºÃ¼*/
 
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#aedd81), to(#068043));      /* Safari 4-5, Chrome 1-9*/
 
@@ -43,7 +43,7 @@ header article{
     top: 2%;
     left: 10%;
     width: 80%;
-    margin-top: 10%;
+    margin-top: 5%;
     font-family: cursive, "YouYuan", sans-serif;
     font-size: 2.5rem;
     font-weight: 300;
