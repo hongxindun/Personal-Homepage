@@ -1261,10 +1261,10 @@ footer{
 
 .A_nav{
     position: absolute;
-    width: 80%;
-    left: 10%;
-    height: 30px;
-    line-height: 30px;
+    width: 90%;
+    left: 5%;
+    height: 25px;
+    line-height: 25px;
     bottom: 4%;
     z-index: 3;
     text-align: center;
@@ -1272,12 +1272,12 @@ footer{
 
 .A_nav .icon{
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     cursor: pointer;
     background: #aaa;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 25px;
     -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);
     -ms-transform: scale(0.5);
@@ -1695,10 +1695,40 @@ footer{
         height: 240px;
     }
     .photo_center{
-        margin: -98px 0 0 -120px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -120px 0 0 -98px;
     }
     .photo .photo-wrap .side-front .image{
         height: 180px;
         line-height: 180px;
+    }
+    .photo_back .photo-wrap{
+        -webkit-transform: translate(196px, 0) rotateY(180deg);
+        -moz-transform: translate(196px, 0) rotateY(180deg);
+        -ms-transform: translate(196px, 0) rotateY(180deg);
+        -o-transform: translate(196px, 0) rotateY(180deg);
+        transform: translate(196px, 0) rotateY(180deg);
+    }
+    .photo .photo-wrap .side-back .desc{
+        font-size: 0.75rem;
+        line-height: 0.75rem;
+    }
+
+    .foot_bottom{
+        width: 90%;
+        bottom: 0.75rem;
+    }
+
+    .to_top{
+        right: 5vw;
+        bottom: 5vw;
+    }
+}
+
+@media screen and (max-width: 350px){
+    #timeline{
+        height: 310vw;
     }
 }
