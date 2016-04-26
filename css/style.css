@@ -24,11 +24,9 @@ header{
     right: 100px;
     width: 450px;
     height: 80%;
-    background: rgb(114, 235, 255);
-
     background: -ms-linear-gradient(top, #aedd81,  #068043);        /* IE 10 */
 
-    background:-moz-linear-gradient(top,#aedd81,#068043);/*»ðºü*/
+    background:-moz-linear-gradient(top,#aedd81,#068043);/*火狐*/
 
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#aedd81), to(#068043));      /* Safari 4-5, Chrome 1-9*/
 
@@ -78,14 +76,14 @@ footer{
 #timeline{
     position: relative;
     min-width: 100%;
-    height: 1350px;
+    height: 1750px;
     background: #192d3e;
 }
 
 #Mylife{
     position: relative;
     width: 100%;
-    height: 1220px;
+    height: 90vw;
     background: #8b987c;
 }
 
@@ -196,9 +194,9 @@ footer{
 }
 
 .T_content_left{
-    position: absolute;
+    position: relative;
     top: 200px;
-    right: 50px;
+    right: 35rem;
     width: 32rem;
     height: 18rem;
     background: rgb(60, 51, 118);
@@ -209,9 +207,9 @@ footer{
 }
 
 .T_content_right{
-    position: absolute;
+    position: relative;
     top: 200px;
-    left: 50px;
+    left: 3.5rem;
     width: 32rem;
     height: 18rem;
     background: rgb(40, 73, 100);
@@ -315,7 +313,7 @@ footer{
     position: absolute;
     background: #008fff;
     top: 51%;
-    right: -55px;
+    right: -3.5rem;
     border-radius: 10px;
     border: 2px solid #ffffff;
 }
@@ -341,7 +339,7 @@ footer{
     position: absolute;
     background: #008fff;
     top: 51%;
-    left: -55px;
+    left: -3.9rem;
     border-radius: 10px;
     border: 2px solid #ffffff;
 }
@@ -354,14 +352,9 @@ footer{
 .M_title{
     position: absolute;
     top: 50px;
+    left: 0;
     height: 6rem;
-    width: 17.5rem;
-    left: 50%;
-    -webkit-transform: translate(-50%, 0);
-    -moz-transform: translate(-50%, 0);
-    -ms-transform: translate(-50%, 0);
-    -o-transform: translate(-50%, 0);
-    transform: translate(-50%, 0);
+    width: 100%;
 }
 
 .M_title section{
@@ -378,8 +371,7 @@ footer{
     position: relative;
     width: 100%;
     top: -1rem;
-    left: 5%;
-    text-align: right;
+    text-align: center;
     color: #ffffff;
     font-size: 2rem;
     font-family: Monotype Corsiva, sans-serif;
@@ -497,7 +489,7 @@ footer{
 #M_content_0>figcaption>p:before{
     content: '';
     position: absolute;
-    top: -100%;
+    top: -50%;
     left: 0;
     width: 100%;
     height: 5px;
@@ -517,11 +509,11 @@ footer{
 }
 
 #M_content_0:hover>figcaption>p{
-    -webkit-transform: translate(0, -3rem);
-    -moz-transform: translate(0, -3rem);
-    -ms-transform: translate(0, -3rem);
-    -o-transform: translate(0, -3rem);
-    transform: translate(0, -3rem);
+    -webkit-transform: translate(0, -90%);
+    -moz-transform: translate(0, -90%);
+    -ms-transform: translate(0, -90%);
+    -o-transform: translate(0, -90%);
+    transform: translate(0, -90%);
     opacity: 1;
 }
 
@@ -738,20 +730,20 @@ footer{
 }
 
 #M_content_3:hover>figcaption>h2{
-    -webkit-transform: translate(0, 3rem);
-    -moz-transform: translate(0, 3rem);
-    -ms-transform: translate(0, 3rem);
-    -o-transform: translate(0, 3rem);
-    transform: translate(0, 3rem);
+    -webkit-transform: translate(0, 60%);
+    -moz-transform: translate(0, 60%);
+    -ms-transform: translate(0, 60%);
+    -o-transform: translate(0, 60%);
+    transform: translate(0, 60%);
 }
 
 
 #M_content_3:hover>figcaption>p{
-    -webkit-transform: translate(0, -40%);
-    -moz-transform: translate(0, -40%);
-    -ms-transform: translate(0, -40%);
-    -o-transform: translate(0, -40%);
-    transform: translate(0, -40%);
+    -webkit-transform: translate(0, -60%);
+    -moz-transform: translate(0, -60%);
+    -ms-transform: translate(0, -60%);
+    -o-transform: translate(0, -60%);
+    transform: translate(0, -60%);
     opacity: 1;
 }
 
@@ -914,6 +906,11 @@ footer{
     top: -2rem;
     left: -80px;
     height: 110%;
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
 }
 
 #M_content_5:hover>figcaption:before,
@@ -944,11 +941,11 @@ footer{
 }
 
 #M_content_5:hover>img{
-    -webkit-transform: translate(0, 2rem);
-    -moz-transform: translate(0, 2rem);
-    -ms-transform: translate(0, 2rem);
-    -o-transform: translate(0, 2rem);
-    transform: translate(0, 2rem);
+    -webkit-transform: translate(0, 2rem) scale(1.2, 1.2);
+    -moz-transform: translate(0, 2rem) scale(1.2, 1.2);
+    -ms-transform: translate(0, 2rem) scale(1.2, 1.2);
+    -o-transform: translate(0, 2rem) scale(1.2, 1.2);
+    transform: translate(0, 2rem) scale(1.2, 1.2);
     opacity: 0.5;
 }
 
@@ -984,11 +981,11 @@ footer{
 }
 
 #M_content_6:hover>figcaption>p{
-    -webkit-transform: translate(0, -5rem);
-    -moz-transform: translate(0, -5rem);
-    -ms-transform: translate(0, -5rem);
-    -o-transform: translate(0, -5rem);
-    transform: translate(0, -5rem);
+    -webkit-transform: translate(0, -100%);
+    -moz-transform: translate(0, -100%);
+    -ms-transform: translate(0, -100%);
+    -o-transform: translate(0, -100%);
+    transform: translate(0, -100%);
     opacity: 1;
 }
 
@@ -1021,7 +1018,7 @@ footer{
 #M_content_7>figcaption>p:before{
     content: '';
     position: absolute;
-    top: -105%;
+    top: -85%;
     left: -12.5%;
     width: 125%;
     height: 4.5rem;
@@ -1042,11 +1039,11 @@ footer{
 }
 
 #M_content_7:hover>figcaption>p{
-    -webkit-transform: translate(0, 55%);
-    -moz-transform: translate(0, 55%);
-    -ms-transform: translate(0, 55%);
-    -o-transform: translate(0, 55%);
-    transform: translate(0, 55%);
+    -webkit-transform: translate(0, 25%);
+    -moz-transform: translate(0, 25%);
+    -ms-transform: translate(0, 25%);
+    -o-transform: translate(0, 25%);
+    transform: translate(0, 25%);
     opacity: 1;
 }
 
@@ -1063,6 +1060,14 @@ footer{
     line-height: 6rem;
     text-align: right;
     color: #ffffff;
+}
+
+#M_content_8>img{
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
 }
 
 #M_content_8>figcaption>p{
@@ -1097,11 +1102,11 @@ footer{
 }
 
 #M_content_8:hover>img{
-    -webkit-transform: translate(-3rem);
-    -moz-transform: translate(-3rem);
-    -ms-transform: translate(-3rem);
-    -o-transform: translate(-3rem);
-    transform: translate(-3rem);
+    -webkit-transform: translate(-2rem) scale(1.2,1.2);
+    -moz-transform: translate(-2rem) scale(1.2,1.2);
+    -ms-transform: translate(-2rem) scale(1.2,1.2);
+    -o-transform: translate(-2rem) scale(1.2,1.2);
+    transform: translate(-2rem) scale(1.2,1.2);
     opacity: 0.5;
 }
 
@@ -1411,4 +1416,289 @@ footer{
 
 .to_top:hover:after{
     opacity: 1;
+}
+
+@media screen and (max-width: 1185px){
+    .T_content_left{
+        right: 29rem;
+        width: 26rem;
+    }
+
+    .T_content_right{
+        width: 26rem;
+    }
+    #Mylife{
+        height: 140vw;
+    }
+    .M_text{
+        width: 50%;
+        height: 30vw;
+    }
+    #M_content_0>img{
+        width: 100%;
+        height: auto;
+    }
+    #M_content_8{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .T_aside p{
+        top: 11.5rem;
+        left: 5rem;
+        width: 25rem;
+        text-align: left;
+    }
+    #timeline{
+        height: 1850px;
+    }
+    .line{
+        position: relative;
+        left: 80%;
+        height: 100%;
+        width: 3px;
+        background: #ffffff;
+    }
+    .T_content_left,.T_content_right{
+        left: auto;
+        right: 35rem;
+        width: 32rem;
+        height: 18rem;
+        margin-bottom: 1rem;
+        -webkit-transform: translate(0, 50px);
+        -moz-transform: translate(0, 50px);
+        -ms-transform: translate(0, 50px);
+        -o-transform: translate(0, 50px);
+        transform: translate(0, 50px);
+    }
+    .T_content_right:before{
+        left: auto;
+        right: -12px;
+        border: 10px transparent solid;
+        border-right-width: 0;
+        border-left-color: #ffffff;
+    }
+
+    .T_content_right:after {
+        top: 51%;
+        left: auto;
+        right: -3.5rem;
+    }
+}
+
+@media screen and (max-width: 900px){
+    #first_screen{
+        background-position: center left;
+    }
+    .head_border,
+    header{
+        width: 400px;
+    }
+    #Mylife{
+        height: 150vw;
+    }
+    .M_content{
+        left: 0;
+        width: 100%;
+    }
+    .M_text{
+        height: 32vw;
+    }
+    .M_text figcaption p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .head_border,
+    header{
+        width: 330px;
+    }
+    header article{
+        font-size: 2rem;
+    }
+    .line{
+        left: 90%;
+    }
+
+    #Mylife{
+        height: 565vw;
+    }
+    .M_content{
+        left: 5%;
+        width: 90%;
+    }
+    .M_text{
+        width: 100%;
+        height: 60vw;
+    }
+    .M_text figcaption p{
+        font-size: 1.25rem;
+    }
+    #M_content_6>figcaption>h2{
+        line-height: 40vw;
+    }
+    #M_content_8{
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 670px){
+    .line{
+        left: 95%;
+    }
+    #Mylife{
+        height: 570vw;
+    }
+}
+
+@media screen and (max-width: 630px){
+    #timeline{
+        height: 290vw;
+    }
+    .T_content_left,.T_content_right{
+        right: 87vw;
+        width: 80vw;
+        height: 45vw;
+    }
+    .T_content_right:before,.T_content_left:before{
+        border: 7px transparent solid;
+        border-right-width: 0;
+        border-left-color: #ffffff;
+    }
+
+    .T_content_right:after,.T_content_left:after{
+        top: 50%;
+        left: auto;
+        height: 2vw;
+        width: 2vw;
+        right: -8.5vw;
+    }
+    #Mylife{
+        height: 570vw;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #first_screen{
+        height: 133.333vw;
+    }
+    .head_border{
+        left: 10%;
+        width: 80%;
+    }
+    header{
+        left: 15%;
+        width: 80%;
+    }
+
+    header article,header .motto{
+        font-size: 7vw;
+    }
+    .logo{
+        left: auto;
+        right: 10vw;
+        width: 20vw;
+        height: auto;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    #timeline{
+        height: 300vw;
+    }
+    .T_title{
+        top: 10vw;
+        left: 10vw;
+    }
+    .T_title section {
+        width: 36vw;
+        font-size: 11.5vw;
+        line-height: 10.5vw;
+    }
+    .T_title aside{
+        right: 0;
+        top: 20vw;
+        font-size: 7vw;
+    }
+    .T_aside p{
+        top: 39vw;
+        left: 5vw;
+        width: 90vw;
+        font-size: 7.5vw;
+    }
+    .T_content_left,.T_content_right{
+        top: 40vw;
+    }
+    .T_content_left>.T_text>.T_node,
+    .T_content_left>.T_text>.T_details,
+    .T_content_right>.T_text>.T_node,
+    .T_content_right>.T_text>.T_details{
+        font-size: 1rem;
+    }
+
+    #Mylife{
+         height: 591.5vw;
+     }
+    .M_title{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 30vw;
+    }
+    .M_title section{
+        position: absolute;
+        top: 10%;
+        width: 100%;
+        text-align: center;
+        font-size: 11.5vw;
+    }
+    .M_title aside{
+        position: absolute;
+        top: 50%;
+        font-size: 7vw;
+    }
+    .M_content{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .M_text{
+        width: 100%;
+        height: 62.5vw;
+    }
+    .M_text figcaption p{
+        font-size: 1rem;
+    }
+    #M_content_3>figcaption>p,#M_content_5>figcaption>p{
+        width: 85%;
+        font-size: 87.5%;
+    }
+    #M_content_5:hover>figcaption>h2{
+        -webkit-transform: translate(0, 50%);
+        -moz-transform: translate(0, 50%);
+        -ms-transform: translate(0, 50%);
+        -o-transform: translate(0, 50%);
+        transform: translate(0, 50%);
+    }
+    #M_content_8>img{
+        height: auto;
+        width: 100%;
+    }
+    .photo{
+        width: 196px;
+        height: 240px;
+    }
+    .photo_center{
+        margin: -98px 0 0 -120px;
+    }
+    .photo .photo-wrap .side-front .image{
+        height: 180px;
+        line-height: 180px;
+    }
 }
