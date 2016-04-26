@@ -1731,4 +1731,38 @@ footer{
     #timeline{
         height: 310vw;
     }
+    .T_content_left>.T_text>.T_node,
+    .T_content_left>.T_text>.T_details,
+    .T_content_right>.T_text>.T_node,
+    .T_content_right>.T_text>.T_details{
+        font-size: 87.5%;
+    }
+    .T_content_left>.T_text>.T_details{
+        top: 0;
+    }
+    .T_content_left:hover>.T_text>.T_node{
+        -webkit-transform: translate(0, -600%);
+        -moz-transform: translate(0, -600%);
+        -ms-transform: translate(0, -600%);
+        -o-transform: translate(0, -600%);
+        transform: translate(0, -600%);
+    }
+    #M_content_3>figcaption>h2{
+        top: 0;
+    }
+    #M_content_4>figcaption>h2{
+        top: 20%;
+    }
+    #M_content_4:hover>figcaption>p,
+    #M_content_6>figcaption>p,
+    #M_content_7>figcaption>p{
+        font-size: 87.5%;
+    }
+    #M_content_6>figcaption>h2{
+        top: 10%;
+    }
+
+    #M_content_7>figcaption>p:before{
+        height: 4rem;
+    }
 }
