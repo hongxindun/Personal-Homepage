@@ -196,8 +196,19 @@ function to_top(){
     };
 }
 
+function un_select(){
+    document.body.oncontextmenu = document.body.ondragstart = document.body.onselectstart = document.body.onbeforecopy = function(){
+        return false;
+    };
+    document.body.onselect = document.body.oncopy = document.body.onmouseup = function(){
+        document.selection.empty();
+    };
+}
+
+
 
 T_change();
 M_change();
 A_change();
 to_top();
+un_select();
