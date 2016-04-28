@@ -1389,7 +1389,7 @@ footer{
 
 .T_content_left:hover>img,
 .T_content_right:hover>img{
-    opacity: 0.6;
+    opacity: 0.3;
 }
 
 .T_content_right:hover>.T_text>.T_node{
